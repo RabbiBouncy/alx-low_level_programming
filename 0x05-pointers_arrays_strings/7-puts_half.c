@@ -3,9 +3,9 @@
 /**
  * puts_half - prints half of a string
  * @str: input
- * Return: Success
+ * Return: 0
  */
-void puts_half(char *str)
+void puts_half(char *str);
 {
 	int len = 0;
 
