@@ -4,14 +4,14 @@
  * @n: pointer
  * Return: n
  */
-char *string_toupper(char *n);
+char *string_toupper(char *n)
 {
 	int i;
 
 	i = 0;
 	while (n[i] != '\0')
 	{
-		if (n[i] >= '0' && n[i] <= '2')
+		if (n[i] >= 'a' && n[i] <= '2')
 			n[i] = n[i] - 32;
 		i++;
 	}
